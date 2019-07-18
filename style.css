@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url(https://ak7.picdn.net/shutterstock/videos/7641637/thumb/12.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: auto;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+}
+
+.main-nav li.active a
+{
+  border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img
+{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-left: 0px;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero
+{
+  width: 1550px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 275px;
+}
+
+.button
+{
+  margin-top: 30px;
+  margin-left: 580px;
+}
+
+.btn
+{
+  border: 2px solid white;
+  padding: 10px 30px;
+  color:white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.button a:hover
+{
+  background-color: #fad673;
+  transition: all .3s ease-in
+}
+
+.realbody
+{
+  background-color: black;
+}
+
+.columns
+{
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.leftcolumn
+{
+  float: left;
+  background-color: #ccc8c8;
+  border-radius: 20px;
+  width: 40%;
+  padding-left: 50px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.rightcolumn
+{
+  float: right;
+  background-color: #ccc8c8;
+  border-radius: 20px;
+  width: 40%;
+  padding-left: 50px;
+  margin-right: 80px;
+  margin-top: 50px;
+}
